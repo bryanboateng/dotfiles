@@ -9,3 +9,5 @@ vim.opt.hlsearch = false
 
 vim.opt.listchars="eol:\\u00AC,tab:\\u00BB\\u0020,space:\\u00B7,trail:~"
 vim.opt.list = true
+
+vim.opt.scrolloff=8
