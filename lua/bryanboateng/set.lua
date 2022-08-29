@@ -6,3 +6,6 @@ vim.opt.shiftwidth = 2
 vim.opt.smartindent = true
 
 vim.opt.hlsearch = false
+
+vim.opt.listchars="eol:\\u00AC,tab:\\u00BB\\u0020,space:\\u00B7,trail:~"
+vim.opt.list = true
