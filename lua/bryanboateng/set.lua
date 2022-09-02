@@ -20,3 +20,5 @@ vim.opt.list = true
 
 vim.opt.scrolloff = 8
 vim.opt.wrap = false
+
+vim.g.mapleader = " "
