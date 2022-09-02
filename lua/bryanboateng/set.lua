@@ -18,5 +18,5 @@ vim.opt.listchars= {
 }
 vim.opt.list = true
 
-vim.opt.scrolloff=8
+vim.opt.scrolloff = 8
 vim.opt.wrap = false
