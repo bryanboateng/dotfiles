@@ -7,6 +7,10 @@ vim.opt.smartindent = true
 
 vim.opt.hlsearch = false
 
+vim.opt.wrap = false
+vim.opt.scrolloff = 8
+vim.opt.sidescrolloff = 8
+
 vim.opt.listchars= {
 	eol = '\\u00AC',
 	tab = '\\u00BB\\u0020',
@@ -17,8 +21,5 @@ vim.opt.listchars= {
 	nbsp = '\\u00B0'
 }
 vim.opt.list = true
-
-vim.opt.scrolloff = 8
-vim.opt.wrap = false
 
 vim.g.mapleader = " "
