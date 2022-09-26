@@ -10,4 +10,9 @@ return require('packer').startup(function(use)
 		after = "github-nvim-theme",
 		config = "require('bryanboateng.plugin_configs.lualine')"
 	}
+	use {
+		'nvim-treesitter/nvim-treesitter',
+		run = ":TSUpdate",
+		config = "require('bryanboateng.plugin_configs.nvim_treesitter')"
+	}
 end)

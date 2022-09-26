@@ -95,6 +95,12 @@ _G.packer_plugins = {
     path = "/home/bryan-oppong/.local/share/nvim/site/pack/packer/opt/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["nvim-treesitter"] = {
+    config = { "require('bryanboateng.plugin_configs.nvim_treesitter')" },
+    loaded = true,
+    path = "/home/bryan-oppong/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/bryan-oppong/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -107,6 +113,10 @@ time([[Defining packer_plugins]], false)
 time([[Config for github-nvim-theme]], true)
 require('bryanboateng.plugin_configs.github_theme')
 time([[Config for github-nvim-theme]], false)
+-- Config for: nvim-treesitter
+time([[Config for nvim-treesitter]], true)
+require('bryanboateng.plugin_configs.nvim_treesitter')
+time([[Config for nvim-treesitter]], false)
 -- Load plugins in order defined by `after`
 time([[Sequenced loading]], true)
 vim.cmd [[ packadd lualine.nvim ]]
