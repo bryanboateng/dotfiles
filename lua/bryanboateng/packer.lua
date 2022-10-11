@@ -18,4 +18,13 @@ return require('packer').startup(function(use)
 		run = ":TSUpdate",
 		config = "require('bryanboateng.plugin_configs.nvim_treesitter')"
 	}
+	use {
+		'nvim-telescope/telescope.nvim',
+		branch = '0.1.x',
+		requires = {
+			{'nvim-lua/plenary.nvim'},
+			{'nvim-telescope/telescope-fzf-native.nvim', run = 'make'}
+		},
+		config = "require('bryanboateng.plugin_configs.nvim_telescope')"
+	}
 end)
