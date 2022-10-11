@@ -5,7 +5,7 @@ require("lualine").setup {
 		component_separators = ''
 	},
 	sections = {
-		lualine_a = {'hostname'},
+		lualine_a = {},
 		lualine_x = {'filetype'}
 	}
 }
