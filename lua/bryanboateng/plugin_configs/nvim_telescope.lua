@@ -7,6 +7,7 @@ vim.keymap.set('n', '<Leader>fh', builtin.help_tags, {})
 require('telescope').setup {
 	defaults = {
 		path_display={'truncate'}
+		layout_strategy = 'flex'
 	}
 }
 require('telescope').load_extension('fzf')
