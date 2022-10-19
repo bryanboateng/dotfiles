@@ -1,4 +1,4 @@
-local map = require("bryanboateng.keymap").map
+local map = require("keymap").map
 
 map("n", "<Leader><Leader>", "\"*")
 map("v", "<Leader><Leader>", "\"*")
