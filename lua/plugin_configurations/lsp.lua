@@ -35,7 +35,7 @@ local on_attach = function(_, bufnr)
 	vim.keymap.set('n', '<Leader>ca', vim.lsp.buf.code_action, buffer_options)
 
 	-- Formats
-	vim.keymap.set('n', '<Leader>f', function() vim.lsp.buf.format { async = true } end, buffer_options)
+	vim.keymap.set('n', '<Leader>rf', function() vim.lsp.buf.format { async = true } end, buffer_options)
 
 	-- Workspace folders
 	vim.keymap.set('n', '<Leader>wa', vim.lsp.buf.add_workspace_folder, buffer_options)
