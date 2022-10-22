@@ -16,13 +16,18 @@ return require('packer').startup(function(use)
 	use {
 		'neovim/nvim-lspconfig',
 		requires = {
-			{'hrsh7th/cmp-nvim-lsp'},
+			{
+				'hrsh7th/nvim-cmp',
+				requires = {
+					{ 'L3MON4D3/LuaSnip' },
+					{ 'hrsh7th/cmp-nvim-lsp' },
+					{ 'hrsh7th/cmp-path' },
+					{ 'saadparwaiz1/cmp_luasnip' },
+				},
+				config = "require('plugin_configurations.cmp')"
+			},
 		},
 		config = "require('plugin_configurations.lsp')"
-	}
-	use {
-		'hrsh7th/nvim-cmp',
-		config = "require('plugin_configurations.cmp')"
 	}
 	use {
 		'nvim-treesitter/nvim-treesitter',

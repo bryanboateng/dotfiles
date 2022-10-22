@@ -6,6 +6,12 @@ cmp.setup({
 	sources = {
 		{ name = 'path' },
 		{ name = 'nvim_lsp' },
+		{ name = 'luasnip' },
+	},
+	snippet = {
+		expand = function(args)
+			require('luasnip').lsp_expand(args.body)
+		end,
 	},
 	window = {
 		documentation = cmp.config.window.bordered()
