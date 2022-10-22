@@ -45,12 +45,16 @@ local on_attach = function(_, bufnr)
 	end, buffer_options)
 end
 
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+
 require('lspconfig')['tsserver'].setup {
 	on_attach = on_attach,
+	capabilities = capabilities,
 }
 
 require('lspconfig')['sumneko_lua'].setup {
 	on_attach = on_attach,
+	capabilities = capabilities,
 	settings = {
 		Lua = {
 			runtime = {
