@@ -14,6 +14,10 @@ return require('packer').startup(function(use)
 		config = "require('plugin_configs.lualine')"
 	}
 	use {
+		'neovim/nvim-lspconfig',
+		config = "require('plugin_configs.nvim_lspconfig')"
+	}
+	use {
 		'nvim-treesitter/nvim-treesitter',
 		run = ":TSUpdate",
 		config = "require('plugin_configs.nvim_treesitter')"
