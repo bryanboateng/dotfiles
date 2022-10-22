@@ -72,3 +72,7 @@ require('lspconfig')['sumneko_lua'].setup {
 		},
 	},
 }
+require('lspconfig')['sourcekit'].setup {
+	on_attach = on_attach,
+	capabilities = capabilities,
+}
