@@ -16,9 +16,19 @@ vim.opt.listchars= {
 	eol = '\\u00AC',
 	tab = '\\u00BB\\u0020',
 	space = '\\u00B7',
+	precedes = '\\u27E8',
+	extends = '\\u27E9',
 	trail = '\\u00D7',
 	nbsp = '\\u00B0'
 }
 vim.opt.list = true
 
 vim.g.mapleader = " "
+
+vim.g.netrw_bufsettings = ''
+		.. ' number'
+		.. ' relativenumber'
+		.. ' nomodifiable'
+		.. ' nobuflisted'
+		.. ' nowrap'
+		.. ' readonly'
