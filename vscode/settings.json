@@ -1,5 +1,6 @@
 {
     "editor.accessibilitySupport": "off",
+    "editor.mouseWheelZoom": true,
     "editor.wordWrap": "on",
     "terminal.integrated.env.osx": {
         "FIG_NEW_SESSION": "1"
