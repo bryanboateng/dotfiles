@@ -8,3 +8,5 @@
 	clean = git-lfs clean -- %f
 [pull]
 	rebase = false
+[core]
+	editor = nvim
