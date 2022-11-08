@@ -4,6 +4,7 @@
 		"FIG_NEW_SESSION": "1"
 	},
 	"debug.toolBarLocation": "docked",
+	"files.autoSave": "onFocusChange",
 	"window.zoomLevel": 2,
 
 	// Editor
