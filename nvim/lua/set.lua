@@ -11,6 +11,7 @@ vim.opt.linebreak = true
 vim.opt.breakindent = true
 
 vim.opt.scrolloff = 8
+vim.opt.sidescrolloff = 8
 
 vim.opt.listchars= {
 	eol = '\\u00AC',
