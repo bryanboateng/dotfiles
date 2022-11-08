@@ -26,5 +26,8 @@
 	// Formatting
 	"prettier.useTabs": true,
 	"editor.formatOnSave": true,
-	"editor.formatOnPaste": true
+	"editor.formatOnPaste": true,
+
+	// CMake
+	"cmake.configureOnOpen": true
 }
