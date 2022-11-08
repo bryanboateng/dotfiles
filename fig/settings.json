@@ -1,5 +1,4 @@
 {
-  "app.beta": true,
   "app.hideMenubarIcon": true,
   "app.preferredTerminal": "iTerm2",
   "autocomplete.keybindings.insertCommonPrefixOrNavigateDown": "tab",
