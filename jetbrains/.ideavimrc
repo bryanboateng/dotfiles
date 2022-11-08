@@ -1,0 +1,5 @@
+set number
+set relativenumber
+set nohlsearch
+set scrolloff=8
+set sidescrolloff=8
