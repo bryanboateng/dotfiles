@@ -16,5 +16,7 @@ precmd() { vcs_info }
 setopt PROMPT_SUBST
 export PROMPT=$'%F{#1d9cf0}%~%f$vcs_info_msg_0_\n\U2192 '
 
+setopt histignoredups # Ignore consecutive dups in history
+
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
