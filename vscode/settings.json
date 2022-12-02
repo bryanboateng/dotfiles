@@ -11,6 +11,7 @@
 	"editor.mouseWheelZoom": true,
 	"editor.stickyScroll.enabled": true,
 	"editor.wordWrap": "on",
+	"editor.cursorSurroundingLines": 8,
 	"editor.renderWhitespace": "all",
 	"editor.tabSize": 3,
 	"editor.lineNumbers": "relative",
