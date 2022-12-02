@@ -12,7 +12,7 @@
 	"editor.stickyScroll.enabled": true,
 	"editor.wordWrap": "on",
 	"editor.renderWhitespace": "all",
-	"editor.tabSize": 2,
+	"editor.tabSize": 3,
 	"editor.lineNumbers": "relative",
 	"editor.minimap.enabled": false,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
