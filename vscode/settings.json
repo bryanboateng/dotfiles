@@ -30,6 +30,10 @@
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 
-	// CMake
-	"cmake.configureOnOpen": true
+	// C++
+	"cmake.configureOnOpen": true,
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"C_Cpp.clang_format_fallbackStyle": "LLVM"
 }
